@@ -14,8 +14,8 @@ function asc_microsites_default_fe_block_settings() {
 
   // Theme independent visibility settings.
   $export['visibility'] = array(
-    'menu_block-1' => array(
-      'delta' => '1',
+    'menu_block-2' => array(
+      'delta' => '2',
       'module' => 'menu_block',
       'node_type' => array(
         'landing_page_alpha' => TRUE,
@@ -26,15 +26,15 @@ function asc_microsites_default_fe_block_settings() {
   // q7
   $theme = array();
 
-  $theme['menu_block-1'] = array(
+  $theme['menu_block-2'] = array(
     'module' => 'menu_block',
-    'delta' => '1',
+    'delta' => '2',
     'theme' => 'q7',
     'status' => '1',
-    'weight' => '-30',
+    'weight' => '-31',
     'region' => 'content',
     'custom' => '0',
-    'visibility' => '1',
+    'visibility' => '0',
     'pages' => '',
     'title' => '<none>',
     'cache' => -1,

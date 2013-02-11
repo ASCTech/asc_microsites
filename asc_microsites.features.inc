@@ -11,7 +11,7 @@ function asc_microsites_block_class_features_default_class() {
   return array(
     0 => array(
       'module' => 'menu_block',
-      'delta' => '1',
+      'delta' => '2',
       'css_classes' => 'landing-page-head-menu',
     ),
   );
