@@ -71,6 +71,14 @@ function asc_microsites_node_info() {
       'title_label' => t('Title'),
       'help' => '',
     ),
+    'microsite_page' => array(
+      'name' => t('Microsite Page'),
+      'base' => 'node_content',
+      'description' => t('Page for inside of a microsite.'),
+      'has_title' => '1',
+      'title_label' => t('Title'),
+      'help' => '',
+    ),
   );
   return $items;
 }
