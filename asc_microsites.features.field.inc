@@ -126,7 +126,7 @@ function asc_microsites_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field__title_bg_color',
       'label' => 'Title Background Color',
-      'required' => 0,
+      'required' => 1,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -434,7 +434,7 @@ function asc_microsites_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_sub_links_bg_color',
       'label' => 'Sub Links Background Color',
-      'required' => 0,
+      'required' => 1,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
@@ -491,7 +491,7 @@ function asc_microsites_field_default_fields() {
       'entity_type' => 'node',
       'field_name' => 'field_sub_navbar_color',
       'label' => 'Sub Navbar Color',
-      'required' => 0,
+      'required' => 1,
       'settings' => array(
         'user_register_form' => FALSE,
       ),
